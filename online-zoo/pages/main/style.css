@@ -20,6 +20,7 @@ a {
     width: 100%;
 }
 
+
 /* Header */
 .header {
 }
@@ -117,4 +118,78 @@ a.about {
 
 .designed:hover {
     text-decoration: underline;
+}
+
+
+/* Watch__animal */
+.main {}
+
+.watch__animal {
+    background-image: url('../../assets/images/background__giant__panda.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-top: -80px;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    /* delete scroll */
+}
+
+.container {}
+
+.watch__animal__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 780px;
+    /********************************временно******************************/
+}
+
+.orange__circle {
+    position: absolute;
+    left: calc(50% - 465px/2 + 239.5px);
+    top: 92px;
+    height: 465px;
+    width: 465px;
+    border-radius: 50%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.watch__animal__title {
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    margin-left: 74px;
+    width: 500px;
+}
+
+.watch__animal__title span {
+    color: #FFEE2E;
+}
+
+.watch__animal__button {}
+
+.watch__animal__button button {
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2 + 332px);
+    top: 626px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    padding-left: 11px;
 }
