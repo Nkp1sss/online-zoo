@@ -1,3 +1,4 @@
+/* General */
 * {
     box-sizing: border-box;
 }
@@ -22,9 +23,6 @@ a {
 
 
 /* Header */
-.header {
-}
-
 .header__content {
     display: flex;
     flex-direction: row;
@@ -33,8 +31,6 @@ a {
     padding: 1px 0 2px 0;
     background-color: black;
 }
-
-.container {}
 
 .header__menu {
     display: flex;
@@ -58,7 +54,6 @@ h1 {
     font-weight: 400;
     font-size: 19.0145px;
     line-height: 120%;
-    /* or 23px */
     text-align: center;
     vertical-align: center;
     border: 1.18841px solid white;
@@ -68,8 +63,6 @@ h1 {
 h1 a {
     color: white;
 }
-
-.menu__body {}
 
 .menu__list {
     display: flex;
@@ -122,22 +115,16 @@ a.about {
 
 
 /* Watch__animal */
-.main {}
-
 .watch__animal {
     background-image: url('../../assets/images/background__giant__panda.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     margin-top: -80px;
     position: relative;
     z-index: -1;
-    overflow: hidden;
-    /* delete scroll */
+    overflow: hidden; /* delete scroll */
 }
-
-.container {}
 
 .watch__animal__content {
     display: flex;
@@ -145,7 +132,6 @@ a.about {
     justify-content: space-around;
     align-items: center;
     min-height: 780px;
-    /********************************временно******************************/
 }
 
 .orange__circle {
@@ -173,8 +159,6 @@ a.about {
 .watch__animal__title span {
     color: #FFEE2E;
 }
-
-.watch__animal__button {}
 
 .watch__animal__button button {
     position: absolute;
