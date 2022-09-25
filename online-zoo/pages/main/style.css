@@ -355,8 +355,6 @@ a.about {
 }
 
 .animal .animal__image:hover + .animal__description .animal__text{
-    -webkit-transform: scale(1.15); /* Safari and Chrome */
-    -moz-transform: scale(1.15); /* Firefox */
     animation: moving 0.6s normal forwards ease-in-out;
     color: white;
 }
@@ -435,7 +433,7 @@ a.about {
     padding-bottom: 28px;
 }
 
-.wrapper {
+.feed__friend .wrapper {
     background: rgba(253, 253, 255, 0.52);
     -webkit-backdrop-filter: blur(2px);
     -moz-backdrop-filter: blur(2px);
@@ -683,4 +681,181 @@ input[type=range]::-webkit-slider-runnable-track {
 
 .testimionals__leave__feedback:hover {
     animation: color-change-button 0.2s normal forwards ease-in-out;
+}
+
+
+/* Footer */
+.footer {
+    position: relative;
+    /*bottom: 16px;*/
+    height: 500px;
+    background-color: #111115;
+}
+
+.footer .wrapper {
+    position: relative;
+}
+
+.footer__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer__logo {
+    max-width: 82px;
+}
+
+.footer__logo__bamboo {
+    position: absolute;
+    top: 62px;
+    margin-left: 10px;
+}
+
+.footer__logo h2 {
+    position: relative;
+    bottom: 16px;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    vertical-align: center;
+    border: 1.18841px solid white;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+
+.footer__logo h2 a {
+    color: white;
+}
+
+.subscribe__form {
+    width: 367px;
+}
+
+.subscribe__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: white;
+    margin-top: 42px;
+    margin-bottom: 13px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+input[type=email] { 
+    background-color: #111115;
+    width: 228px;
+    border: 1px solid #BF6736;
+    height: 42px;
+    padding-left: 9px;
+    color: #BDBDBD;
+    margin-right: 10px;
+}
+
+.form-btn {
+    width: 129px;
+    height: 42px;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    color: #4B9200;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #ffd8d8;
+}
+
+.wrapper__wrapper {
+    width: 100%;
+}
+.wrapper__donat__button {
+    margin-top: 36px;
+    width: 298px;
+}
+
+.donate__button {
+    background-color: #FB8635;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donate__button:hover {
+    animation: color-change-button 0.2s normal forwards ease-in-out;
+}
+
+.icon1 {}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: -24px;
+}
+
+.network__icons {
+    margin-top: 28px;
+}
+
+.network__image {
+    width: 26px;
+    height: 26px;
+    background: rgba(196, 196, 196, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.network__image:hover {
+    opacity: 0.6;
+}
+
+.network__name {
+    margin-top: 21px;
+    line-height: 140%;
+    color: white;
+    cursor: pointer;
+}
+
+.network__name:hover {
+    text-decoration: underline;
+}
+
+.footer__menu__body {
+    position: relative;
+    top: 23px;
+    left: 67px;
+}
+
+.link {
+    color: white;
+}
+
+.designer__end {
+    position: relative;
+    top: 26px;
+    right: 1px;
+} 
+
+.footer__designed {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+    margin-bottom: -5px;
+}
+
+.footer__RSSchool {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
 }
