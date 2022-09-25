@@ -569,8 +569,7 @@ a.about {
     background-image: url('../../assets/images/leav_foto.png');
     background-repeat: no-repeat;
     background-position: 100% 136%;
-    z-index: -1;
-
+    z-index: 1;
 }
 
 .testimonials__content {
