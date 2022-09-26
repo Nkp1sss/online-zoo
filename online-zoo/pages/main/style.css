@@ -40,7 +40,7 @@ a {
 }
 
 
-/* Container (для первых 2 блоков (ошибка)) */
+/* Container and wrapper */
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -53,16 +53,19 @@ a {
     width: 100%;
 }
 
-
-
 /* Header */
+.header {
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
 .header__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1px 0 2px 0;
-    background-color: black;
     position: relative;
     z-index: 1;
 }
@@ -75,7 +78,7 @@ a {
 
 .header__logo {
     max-width: 82px;
-    margin-left: 20px;
+    margin-left: -10px;
     margin-right: 23px;
 }
 
@@ -103,10 +106,6 @@ h1 a {
     display: flex;
 }
 
-a:link {
-    color: orange;
-}
-
 .menu__list li {
     margin-right: 58px;
     list-style-type: none;
@@ -119,24 +118,11 @@ a:link {
 
 .menu__link:hover {
     color: orange;
-    /*animation: color-change-menu-link 0.2s normal forwards ease-in-out;*/
 }
 
 .menu__link:active {
     color: green;
 }
-
-/*
-@keyframes color-change-menu-link {
-    0% {
-        color: white;
-    }
-
-    100% {
-        color: orange;
-    }
-}
-*/
 
 a.about {
     color: orange;
@@ -146,7 +132,7 @@ a.about {
 .designed {
     color: white;
     font-weight: 500;
-    margin-right: 30px;
+    margin-right: 1px;
 }
 
 .designed:hover {
@@ -248,7 +234,6 @@ a.about {
 
 .backstage__text {
     color: #333B41;
-    font-weight: 400;
     margin-top: -40px;
 }
 
