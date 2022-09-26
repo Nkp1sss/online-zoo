@@ -16,7 +16,141 @@ a {
     text-decoration: none;
 }
 
-/* Container */
-.container {
 
+.button {
+    width: 298px;
+    height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+@keyframes color-change-button {
+    0% {
+        background-color: #FE9013;
+    }
+
+    100% {
+        background-color: #ff3c00d8;
+    }
+}
+
+
+/* Container and wrapper */
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 0 2px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.header__logo {
+    max-width: 82px;
+    margin-left: -10px;
+    margin-right: 23px;
+}
+
+.header__logo__bamboo {
+    position: absolute;
+    top: 38px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    vertical-align: center;
+    border: 1.18841px solid white;
+    padding-top: 4px;
+}
+
+h1 a {
+    color: white;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list li {
+    margin-right: 58px;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.menu__list a {
+    color: white;
+}
+
+.menu__link:hover {
+    color: orange;
+}
+
+.menu__link:active {
+    color: green;
+}
+
+a.donate {
+    color: orange;
+    cursor: default;
+}
+
+.designed {
+    color: white;
+    font-weight: 500;
+    margin-right: 1px;
+}
+
+.designed:hover {
+    text-decoration: underline;
+}
+
+/* feed__friend */
+.feed__friend {
+
+}
+
+.background__panda {
+    height: 390px;
+    background-image: url('../../assets/images/panda_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    bottom: 4px;
 }
