@@ -173,8 +173,10 @@ a.about {
     text-transform: uppercase;
     color: white;
     border: none;
-    margin-left: 74px;
+    margin-left: 73px;
     width: 500px;
+    text-align: center;
+    margin-top: 74px;
 }
 
 .watch__animal__title span {
