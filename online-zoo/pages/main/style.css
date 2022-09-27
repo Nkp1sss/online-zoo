@@ -336,8 +336,8 @@ a.about {
 }
 
 .animal__image img:hover{
-    -webkit-transform: scale(1.15); /* Safari and Chrome */
-    -moz-transform: scale(1.15); /* Firefox */
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
     filter: brightness(50%);
 }
 
@@ -363,6 +363,7 @@ a.about {
     align-items: center;
     position: relative;
     z-index: 1;
+    margin-bottom: -2px;
 }
 
 .animal__text {
@@ -392,7 +393,7 @@ a.about {
 }
 
 .wrapper__pets__button {
-    margin-top: 77px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
