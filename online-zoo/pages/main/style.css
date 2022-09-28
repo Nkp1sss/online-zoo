@@ -187,8 +187,8 @@ a.about {
     position: relative;
     z-index: 100;
     top: 626px;
+    background-color: #FA833F;
     left: calc(50% - 298px/2 + 332px);
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
     -moz-border-radius: 25px;
 }
@@ -200,15 +200,16 @@ a.about {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #E47209;
     border-radius: 25px;
     opacity: 0;
-    transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
 }
 
 .watch__animal__button:hover .animal__btn-helper {
     opacity: 1;
+}
+
+.watch__animal__button:active {
+    background-color: green;
 }
 
 
@@ -404,12 +405,6 @@ a.about {
     border-radius: 25px;
 }
 
-
-.pets__button:hover {
-    animation: color-change-button 0.2s normal forwards ease-in-out;
-}
-
-
 /* Feed friend */
 .feed__friend {
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
@@ -542,10 +537,6 @@ a.about {
     border-radius: 25px;
 }
 
-.content__button:hover {
-    animation: color-change-button 0.2s normal forwards ease-in-out;
-}
-
 
 /* Testimonials */
 
@@ -668,7 +659,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 .testimionals__leave__feedback:hover {
-    animation: color-change-button 0.2s normal forwards ease-in-out;
+    background-color: orange;
 }
 
 
@@ -776,7 +767,7 @@ input[type=email] {
 }
 
 .donate__button:hover {
-    animation: color-change-button 0.2s normal forwards ease-in-out;
+    background-color: orange;
 }
 
 .icon1 {}
@@ -846,4 +837,13 @@ input[type=email] {
     font-size: 16px;
     line-height: 130%;
     color: white;
+}
+
+
+.button:hover {
+    background-color: orange;
+}
+
+.button:active {
+    background-color: green;
 }

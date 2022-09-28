@@ -30,6 +30,10 @@ a {
     line-height: 140%;
 }
 
+.button:hover {
+    background-color: green;
+}
+
 @keyframes color-change-button {
     0% {
         background-color: #FE9013;
@@ -752,4 +756,3 @@ input[type=email] {
     line-height: 130%;
     color: white;
 }
-
