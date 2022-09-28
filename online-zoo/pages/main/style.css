@@ -867,10 +867,6 @@ input[type=email] {
     top: 1px;
 }
 
-.fb {
-
-}
-
 .tw {
     left: -12px;
     top: 1px;
@@ -892,6 +888,10 @@ input[type=email] {
 
 .network__item:hover {
     color: green;
+}
+
+.network__item:hover .net__link>.span::before {
+    background-color: #4B9200;
 }
 
 .network__item a {
