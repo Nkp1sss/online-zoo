@@ -778,7 +778,7 @@ input[type=email] {
     align-items: center;
     margin-bottom: -24px;
 }
-
+/*
 .network__icons {
     margin-top: 28px;
 }
@@ -808,11 +808,11 @@ input[type=email] {
 .network__name:hover {
     text-decoration: underline;
 }
-
+*/
 .footer__menu__body {
     position: relative;
-    top: 23px;
-    left: 67px;
+    top: 16px;
+    left: 56px;
 }
 
 .link {
@@ -832,7 +832,7 @@ input[type=email] {
     color: white;
     margin-bottom: -5px;
     position: relative;
-    bottom: 16px;
+    bottom: 22px;
     line-height: 200%;
 }
 
@@ -840,4 +840,66 @@ input[type=email] {
     text-decoration: underline;
     color: green;
     cursor: pointer;
+}
+
+.span:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -18px;
+    z-index: 0;
+    height: 26px;
+    width: 26px;
+    border-radius: 15px;
+    background-color: #767474;
+}
+
+.network__icons {
+    position: relative;
+    top: 32px;
+    left: -23px;
+
+}
+
+.network {
+    position: relative;
+    left: -9px;
+    top: 1px;
+}
+
+.fb {
+
+}
+
+.tw {
+    left: -12px;
+    top: 1px;
+}
+
+.inst {
+    left: -13px;
+    top: 1px;
+}
+
+.youtube {
+    left: -14px;
+    bottom: 1px;
+}
+
+.network__item {
+    margin-bottom: 17px;
+}
+
+.network__item:hover {
+    color: green;
+}
+
+.network__item a {
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.net__link:hover {
+    color: green;
 }
