@@ -31,18 +31,14 @@ a {
 }
 
 .button:hover {
+    background-color: orange;
+}
+
+.button:active {
     background-color: green;
 }
 
-@keyframes color-change-button {
-    0% {
-        background-color: #FE9013;
-    }
 
-    100% {
-        background-color: #E47209;
-    }
-}
 
 
 /* Container and wrapper */
@@ -552,16 +548,6 @@ input[type="radio"]:checked {
     line-height: 140%;
 }
 
-@keyframes color-change-button {
-    0% {
-        background-color: #FE9013;
-    }
-
-    100% {
-        background-color: #E47209;
-    }
-}
-
 .feed__friend__now {
     border-radius: 25px;
     background-color: #FE9013;
@@ -569,10 +555,6 @@ input[type="radio"]:checked {
     margin-left: 3px;
     padding-left: 13px;
     padding-top: 2px;
-}
-
-.feed__friend__now:hover {
-    animation: color-change-button 0.2s normal forwards ease-in-out;
 }
 
 .donate__share {
@@ -584,7 +566,7 @@ input[type="radio"]:checked {
 .footer {
     position: relative;
     bottom: 34px;
-    height: 420px;
+    height: 443px;
     background-color: #111115;
 }
 
@@ -684,12 +666,6 @@ input[type=email] {
     cursor: pointer;
 }
 
-.donate__button:hover {
-    animation: color-change-button 0.2s normal forwards ease-in-out;
-}
-
-.icon1 {}
-
 .icon {
     display: flex;
     align-items: center;
@@ -748,11 +724,13 @@ input[type=email] {
     line-height: 130%;
     color: white;
     margin-bottom: -5px;
+    position: relative;
+    bottom: 16px;
+    line-height: 200%;
 }
 
-.footer__RSSchool {
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 130%;
-    color: white;
+.footer__designed:hover {
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
 }

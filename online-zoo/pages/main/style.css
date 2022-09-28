@@ -16,6 +16,13 @@ a {
     text-decoration: none;
 }
 
+.button:hover {
+    background-color: orange;
+}
+
+.button:active {
+    background-color: green;
+}
 
 .button {
     width: 298px;
@@ -302,17 +309,11 @@ a.about {
 }
 
 .arrow:hover {
-    animation: color-change-left-right 0.3s normal forwards ease-in-out;
+    background-color: orange;
 }
 
-@keyframes color-change-left-right {
-    0% {
-        background-color: #FA843C;
-    }
-
-    100% {
-        background-color: #E47209;
-    }
+.arrow:active {
+    background-color: green;
 }
 
 
@@ -830,20 +831,13 @@ input[type=email] {
     line-height: 130%;
     color: white;
     margin-bottom: -5px;
+    position: relative;
+    bottom: 16px;
+    line-height: 200%;
 }
 
-.footer__RSSchool {
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 130%;
-    color: white;
-}
-
-
-.button:hover {
-    background-color: orange;
-}
-
-.button:active {
-    background-color: green;
+.footer__designed:hover {
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
 }
