@@ -108,7 +108,7 @@
                             </div>
                             <div class="donate__middle">
                                 <div class="donate__number">
-                                    <input  min="1" max="9999" maxlength="4" class="donate__number__input" type="number" placeholder="Another amount">
+                                    <input  oninput="if (value.length > 4) value = 9999" min="1" max="9999" maxlength="4" class="donate__number__input" type="number" placeholder="Another amount">
                                 </div>
                                 <div class="donate__radio__buttons">
                                     <div class="rb__first">
