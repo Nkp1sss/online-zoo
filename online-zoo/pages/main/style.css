@@ -240,6 +240,12 @@ a.about {
 
 .backstage__image {
     margin-right: 87px;
+    /*min-width: 50%;*/
+}
+
+.backstage__image img {
+    /*width: 100%;
+    height: auto;*/
 }
 
 .backstage__text {
@@ -575,8 +581,8 @@ a.about {
 }
 
 .human {
-    min-width: 264px;
-    height: 387px;
+    max-width: 264px;
+    max-height: 387px;
     background: #F1F3F2;
     border-radius: 20px;
     margin-right: 30px;
@@ -878,4 +884,166 @@ input[type=email] {
 
 .network__item:hover .net__link>.span::before {
     background-color: #4B9200;
+}
+
+
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+
+@media screen and (max-width: 1599px) {
+    .wrapper {
+        max-width: 940px;
+    }
+
+    .menu__list li {
+        margin-right: 48px;
+    }
+    
+
+    .orange__circle {
+        left: calc(50% - 465px/2 + 190.5px);
+        width: 367px;
+        height: 367px;
+        top: 70px;
+        left: calc(50% - 367px/2 + 139.5px);
+    }
+    .watch__animal__content {
+        min-height: 584px;
+    }
+    .watch__animal__title {
+        font-size: 92px;
+        font-size: 85px;
+        left: calc(50% - 400.25px/2 + 214.12px);
+        margin: 53px 0 0 8px;
+    }  
+    .watch__animal__button {
+        top: 483px;
+        left: calc(50% - 298px/2 + 214px);
+    }
+
+    .backstage {
+        background-image: none;
+        padding: 109px 0 0 0;
+    }
+    .backstage__image {
+        min-width: 50%;
+        margin: 0 16px 0 0;
+    }
+    .backstage__image img {
+        width: 96.8%;
+        height: 408px;
+        object-fit: cover;
+    }
+    .backstage__text {
+        margin-top: -49px;
+    }
+    .backstage__text3 {
+        line-height: 22px;
+    }
+
+    .pets {
+        margin: 126px 0 0 0;
+        background-size: 14%;
+        background-image: url('../../assets/images/palm_foto2.png'), url('../../assets/images/strelitzia2.png');
+        background-repeat: no-repeat, no-repeat;
+        background-position: left bottom, right bottom;
+        padding-bottom: 1px;
+        overflow: hidden;
+        background-size: 19.4%, 24%;
+    }
+    .pets__animals {
+        row-gap: 92px;
+    }
+    .animal__name {
+        margin-top: 6px;
+    }
+    .arrow {
+        top: 34.25%;
+    }
+    .arrow__left{
+        left: calc(50% - 62px/2 - 116.5px);
+    }
+    .arrow__right {
+        left: calc(50% - 62px/2 + 116.5px);
+    }
+    .pets__button {
+        margin: 4px 0 39px 0;
+        padding-left: 9px;
+    }
+
+    .testimonials {
+        margin-top: 100px;
+    }
+
+    .feed__friend__content {
+        margin: -40px 0 -50px 0;
+        max-height: 796px;
+    }
+    .content__title {
+        padding: 30px 0 0 0;
+    }
+    .content__text1 {
+        margin: -11px 0 0 0;
+        padding: 0 0 0 49px;
+    }
+    .content__text2 {
+        padding: 4px 0 0 49px;
+        max-width: 850px;
+        line-height: 130%;
+    }
+    .content__text3 {
+        padding: 0 0 0 49px;
+        margin-bottom: 40px;
+        max-width: 850px;
+    }
+    .wrapper__content__button {
+        margin-top: 56px;
+        padding-left: 4px;
+    }
+
+    .testimonials {
+        background-image: url('../../assets/images/leav_foto.png');
+        background-repeat: no-repeat;
+        background-position: 100% 122%;
+        background-size: 20%;
+    }
+    .testimionals__title {
+        margin-bottom: 30px;
+    }
+    .wrapper__human {
+        justify-content: center;
+        min-width: 293px;
+        min-height: 391px;
+    }
+    .human {
+        min-width: 289px;
+        min-height: 387px;
+    } 
+    .wrapper__human:last-child {
+        display: none;
+    }
+    input[type=range] {
+        width: 402px;
+        margin-bottom: 25px;
+    }
+    input[type=range]::-webkit-slider-thumb {
+        width: 75px;
+        height: 10px;
+    }
+    .testimionals__leave__feedback {
+        margin-bottom: 140px;
+    }
+
+    .subscribe__form {
+        position: relative;
+        right: 32px;
+    }
+    .footer__menu__body {
+        left: 38px;
+        top: 15px;
+    }
+
 }
