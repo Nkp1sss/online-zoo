@@ -297,6 +297,10 @@ bfd
     position: relative;
 }
 
+.slider1000 {
+    display: none;
+}
+
 form {
     width: 100%;
 }
@@ -760,4 +764,95 @@ input[type=email] {
 
 .network__item:hover .net__link>.span::before {
     background-color: #4B9200;
+}
+
+
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+/* Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery Mediaquery*/
+
+@media screen and (max-width: 1599px) {
+    .wrapper {
+        max-width: 940px;
+    }
+
+    .menu__list li {
+        margin-right: 48px;
+    }
+
+    .background__panda {
+        background-position: 28.6%;
+        height: 394px;
+    }
+
+    .feed__friend {
+        height: 1400px;
+    }
+    .content__title {
+        max-width: 800px;
+        line-height: 130%;
+        padding-top: 40px;
+    }
+    .content__text {
+        margin-top: 0px;
+    }
+    .donation__info {
+        margin-bottom: 38px;
+    }
+    .donate__title {
+        padding-top: 18px;
+    }
+    .donate__text {
+        margin-left: 47px;
+        margin-top: 15px;
+    }
+    .slider1600 {
+        display: none;
+    }
+    .slider1000 {
+        display: block;
+    }
+    .donate__amount {
+        margin-left: 65px;
+    }
+    #form-wrapper {
+        width: 810px;
+        margin-left: 65px;
+    }
+    form #debt-amount-slider::before {
+        content: " ";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        width: calc(98% * (8.8 / 10));
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #72828E;
+    }
+    .donate__share {
+        margin-left: 3px;
+        margin-bottom: 1px;
+    }
+    
+    .footer {
+        margin-top: -149px;
+    }
+    .subscribe__form {
+        position: relative;
+        right: 32px;
+    }
+    .network__icons {
+        margin-top: 30px;
+    }
+    .footer__menu__body {
+        top: 0px;
+        left: 51px;
+    }
+    .footer__designed {
+        bottom: 18px;
+        right: 1px;
+    }
 }
