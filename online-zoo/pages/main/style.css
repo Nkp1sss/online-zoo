@@ -489,7 +489,13 @@ a.about {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 47px;
+}
+
+.stages p {
+    text-align: left;
+    line-height: 140%;
+    margin-top: 30px;
 }
 
 .stage {
@@ -514,14 +520,13 @@ a.about {
     width: 69px;
     height: 35px;
     margin: 0 30px;
+    position: relative;
+    bottom: 45px;
 }
 
-.stages__text {
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    line-height: 140%;
-    margin-bottom: 45px;
+.stage1 {
+    position: relative;
+    bottom: 9px;
 }
 
 .stage1__text {
@@ -529,9 +534,15 @@ a.about {
     margin-top: 0;
 }
 
+.stage2 {
+    position: relative;
+    top: 2px;
+}
+
 .stage2__text {
     width: 168px;
-    margin: 0 130px;
+    position: relative;
+    top: 0px;
 }
 
 .stage3__text {
@@ -848,7 +859,9 @@ input[type=email] {
     position: relative;
     top: 32px;
     left: -23px;
-
+}
+.nw_ic2 {
+    display: none;
 }
 
 .network {
@@ -1023,12 +1036,21 @@ input[type=email] {
     .wrapper__human {
         justify-content: center;
         min-width: 293px;
-        min-height: 391px;
+        height: 391px;
     }
     .human {
         min-width: 289px;
-        min-height: 387px;
+        height: 387px;
     } 
+    .photo2 {
+        position: relative;
+        bottom: 4px;
+    }
+    .htext2 {
+        position: relative;
+        top: -6px;
+        left: -5px;
+    }
     .wrapper__human:last-child {
         display: none;
     }
@@ -1060,7 +1082,7 @@ input[type=email] {
     }
 
     .header {
-        height: 34px;
+        height: 36px;
         margin-bottom: 45px;
         position: fixed;
         top: 0;
@@ -1098,7 +1120,7 @@ input[type=email] {
     }
 
     .watch__animal {
-        margin-top: 0px;
+        margin-top: 3px;
     }
     .watch__animal__content {
         min-height: 374px;
@@ -1214,6 +1236,9 @@ input[type=email] {
     .feed__friend .wrapper {
         min-width: 640px;
     }
+    .feed__friend {
+        max-height: 781px;
+    }
     .feed__friend__content {
         margin-top: -44px;
     }
@@ -1246,11 +1271,12 @@ input[type=email] {
         height: 35px;
     }
     .arrow1 {
-        top: -9.2%;
+        top: -5.2%;
         left: 21.5%;
+        z-index: 2;
     }
     .arrow2 {
-        top: -9.2%;
+        top: -5.2%;
         right: 22.2%;
     }
     .stages {
@@ -1260,27 +1286,107 @@ input[type=email] {
     .stage2 {
         margin: 0 42px;
     }
-    .stages__text {
-    }
     .stage1__text {
         min-width: 168px;
         position: relative;
-        top: 2px;
-        left: 82px;
     }
     .stage2__text {
         min-width: 168px;
-        position: relative;
-        top: 2px;
-        right: 6px;
     }
     .stage3__text {
         min-width: 168px;
         position: relative;
         top: 2px;
-        right: 94px;
     }
     .wrapper__content__button {
-        margin-top: -22px;
+        margin-top: -20px;
+    }
+
+    .testimonials {
+        margin-top: 58px;
+    }
+    .testimionals__people {
+        flex-direction: column;
+    }
+    .wrapper__human {
+        width: 600px;
+        height: 109px;
+        margin-bottom: 15px;
+    }
+    .human {
+        min-width: 596px;
+        height: 105px;
+        text-overflow: clip;
+    }
+    .human__info {
+        margin-left: -5px;
+    }
+    .wrapper__testimionals__feed-bar {
+        display: none;
+    }
+    .testimionals__leave__feedback {
+    }
+    .wrp__test_feedback {
+        display: flex;
+        justify-content: center;
+    }
+    .testimionals__leave__feedback {
+        width: 240px;
+        margin-top: 11px;
+        margin-bottom: 80px;
+    }
+    .testimonials {
+        background-position: 101.2% 116%;
+        background-size: 120px;
+    }
+    
+    .footer {
+        height: 282px;
+    }
+    .subscribe__form {
+        display: none;
+    }
+    .footer__logo {
+        order: -2;
+    }
+    .network__icons {
+        order: -1;
+    }
+    .nw_ic1 {
+        display: none;
+    }
+    .nw_ic2 {
+        display: block;
+    }
+    .footer__content {
+        align-items: center;
+    }
+    .footer__logo {
+        margin-top: -70px;
+    }
+    .footer__logo__bamboo {
+        top: 33px;
+    }
+    .network__icons {
+        margin-right: -33px;
+        margin-top: -16px;
+    }
+    .network__icons li {
+        margin-bottom: 26px;
+    }
+    .wrapper__donat__button {
+        margin-top: -84px;
+    }
+    .footer__menu__body {
+        left: -40px;
+        top: 52px;
+    }
+    .menu__list li {
+        margin-right: 37px;
+    }
+    .designer__end {
+        position: relative;
+        left: 372px;
+        top: -13px;
     }
 }

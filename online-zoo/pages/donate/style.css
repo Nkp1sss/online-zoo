@@ -10,7 +10,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    height: 2300px;
+    height: 2240px;
 }
 
 a {
@@ -134,6 +134,9 @@ a.donate {
     color: white;
     font-weight: 500;
     margin-right: 1px;
+}
+.menu__burger {
+    display: none;
 }
 
 .designed:hover {
@@ -298,6 +301,9 @@ bfd
 }
 
 .slider1000 {
+    display: none;
+}
+.slider640 {
     display: none;
 }
 
@@ -672,7 +678,7 @@ input[type=email] {
 
 .footer__menu__body {
     position: relative;
-    top: 2px;
+    top: 14px;
     left: 56px;
 }
 
@@ -682,7 +688,7 @@ input[type=email] {
 
 .designer__end {
     position: relative;
-    top: 6px;
+    top: 18px;
     right: 1px;
 }
 
@@ -717,8 +723,12 @@ input[type=email] {
 
 .network__icons {
     position: relative;
-    top: 18px;
+    top: 32px;
     left: -23px;
+}
+
+.nw_ic2 {
+    display: none;
 }
 
 .network {
@@ -845,14 +855,192 @@ input[type=email] {
         right: 32px;
     }
     .network__icons {
-        margin-top: 30px;
+        margin-top: 16px;
     }
     .footer__menu__body {
-        top: 0px;
+        top: 15px;
         left: 51px;
     }
     .footer__designed {
-        bottom: 18px;
+        bottom: 16px;
         right: 1px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .wrapper {
+        max-width: 600px;
+    }
+
+    .header {
+        height: 34px;
+        margin-bottom: 45px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100000;
+    }
+    
+    .header__menu__body {
+        display: none;
+    }
+    div .designed {
+        display: none;
+    }
+    .menu__burger {
+        display: block;
+        margin-top: -10px;
+    }
+    .menu__burger:hover {
+        cursor: pointer;
+    }
+    .header__logo {
+        margin-top: -10px;
+        margin-left: -28px;
+    }
+    h1 {
+        font-size: 12.2899px;
+        border: none;
+    }
+    .header__logo__bamboo {
+        top: 14px;
+        left: -8px;
+    }
+    .header__logo__bamboo img {
+        width: 8px;
+    }
+
+    .background__panda {
+        height: 353px;
+        background-position: 37%;
+        background-size: 216%;
+        margin-top: 30px;
+    }
+
+    .content__title {
+        font-size: 24px;
+        line-height: 120%;
+        padding-top: 30px;
+    }
+    .donation__info {
+        margin-top: -19px;
+    }
+    .donate__ {
+        margin-top: -9px;
+    }
+    .donate__title {
+        padding-top: 29px;
+        margin-left: 1px;
+    }
+    .donate__text {
+        margin-top: 26px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .donate__widget {
+        margin-top: -10px;
+    }
+    .donate__amount {
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    #form-wrapper {
+        width: 600px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    form #debt-amount-slider::before {
+        content: " ";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        width: calc(92% * (8.8 / 10));
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #72828E;
+    }
+    input[type="number"] {
+        width: 180px;
+        height: 42px;
+        padding-left: 5px;
+    }
+    .donate__number__input {
+        position: relative;
+        background-image: url(../../assets/icons/dollar.png);
+        background-position: 94.6% 50%;
+        background-repeat: no-repeat;
+    }
+    .donate__radio__buttons {
+        margin-top: 30px;
+    }
+    .feed__friend__now {
+        margin-top: 29px;
+        padding-left: 9px;
+    }
+    .wrpr {
+        height: 918px;
+    }
+
+
+    .footer {
+        height: 282px;
+    }
+    .subscribe__form {
+        display: none;
+    }
+    .footer__logo {
+        order: -2;
+    }
+    .network__icons {
+        order: -1;
+    }
+    .nw_ic1 {
+        display: none;
+    }
+    .nw_ic2 {
+        display: block;
+    }
+    .footer__content {
+        align-items: center;
+    }
+    .footer__logo {
+        margin-top: -70px;
+    }
+    .footer__logo__bamboo {
+        top: 33px;
+    }
+    .network__icons {
+        margin-right: -33px;
+        margin-top: -16px;
+        position: relative;
+        top: 32px;
+    }
+    .network__icons li {
+        margin-bottom: 26px;
+    }
+    .wrapper__donat__button {
+        margin-top: -84px;
+    }
+    .footer__menu__body {
+        left: -40px;
+        top: 52px;
+    }
+    .menu__list li {
+        margin-right: 37px;
+    }
+    .designer__end {
+        position: relative;
+        left: 373px;
+        top: -19px;
+    }
+
+
+    .slider1000 {
+        display: none;
+    }
+    .slider640 {
+        display: block;
     }
 }
