@@ -868,6 +868,10 @@ input[type=email] {
 }
 
 @media screen and (max-width: 999px) {
+    body {
+        height: 1930px;
+    }
+
     .wrapper {
         max-width: 600px;
     }
@@ -987,6 +991,12 @@ input[type=email] {
     .footer {
         height: 282px;
     }
+    .footer .container {
+        height: 282px;
+    }
+    .footer .container .wrapper{
+        height: 282px;
+    }
     .subscribe__form {
         display: none;
     }
@@ -1004,6 +1014,7 @@ input[type=email] {
     }
     .footer__content {
         align-items: center;
+        height: 282px;
     }
     .footer__logo {
         margin-top: -70px;
@@ -1033,7 +1044,7 @@ input[type=email] {
     .designer__end {
         position: relative;
         left: 373px;
-        top: -19px;
+        top: -23px;
     }
 
 
