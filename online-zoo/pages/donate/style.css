@@ -920,10 +920,10 @@ input[type=email] {
     }
 
     .background__panda {
-        height: 353px;
+        height: 358px;
         background-position: 37%;
-        background-size: 216%;
-        margin-top: 30px;
+        background-size: 223%;
+        margin-top: 25px;
     }
 
     .content__title {
@@ -1070,7 +1070,7 @@ input[type=email] {
     }
 
     .header {
-        height: 34px;
+        height: 35px;
     }
     .background__panda {
         height: 207px;
