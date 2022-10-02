@@ -1189,6 +1189,7 @@ input[type=email] {
     }
     .feed__friend__now {
         margin-top: 27px;
+        margin-left: 0;
     }
     .donate__share {
         margin-left: 0;
