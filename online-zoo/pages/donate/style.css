@@ -158,7 +158,7 @@ a.donate {
 
 /* feed__friend */
 .feed__friend {
-    min-height: 1482px; /*
+    height: 1482px; /*
     gew
     few
     fe
@@ -260,6 +260,10 @@ bfd
     position: relative;
     bottom: 18px;
     right: 1px;
+}
+
+.p3 {
+    display: none;
 }
 
 .donate__icon {
@@ -848,7 +852,7 @@ input[type=email] {
     }
     
     .footer {
-        margin-top: -149px;
+        margin-top: -67px;
     }
     .subscribe__form {
         position: relative;
@@ -1053,5 +1057,205 @@ input[type=email] {
     }
     .slider640 {
         display: block;
+    }
+}
+
+@media screen and (max-width: 639px) { 
+    .wrapper {
+        max-width: 300px;
+    }
+
+    body {
+        max-height: 1678px;
+    }
+
+    .header {
+        height: 34px;
+    }
+    .background__panda {
+        height: 207px;
+        background-position: 33%;
+        background-size: 236% 90%;
+        margin-top: 28px;
+    }
+
+    .content__text {
+        line-height: 22px;
+    }
+    .donation__info {
+        font-size: 24px;
+        margin-top: -17px;
+    }
+    .donate__title {
+        font-size: 24px;
+        padding-top: 21px;
+    }
+    .donate__text {
+        font-size: 16px;
+        margin-top: 12px;
+        line-height: 22px;
+    }
+    .donate__panda img {
+        width: 160px;
+    }
+    .donate__diet .p1 {
+        font-size: 40px;
+    }
+    .donate__diet:last-child {
+        font-size: 8px;
+    }
+    .p2 {
+        display: none;
+    }
+    .p3 {
+        display: block;
+    }
+    .donate__diet {
+        margin-top: 47px;
+        margin-left: 10px;
+        margin-right: -10px;
+    }
+    .donate__icon {
+        margin-top: 19px;
+        margin-right: 42px;
+    }
+    .donate__icon img {
+        width: 8px;
+    }
+    .donate__panda {
+        margin-top: 0;
+        right: 5px;
+        top: 5px;
+    }
+    .p1 {
+        position: relative;
+        left: -5px;
+        top: 0px;
+    }
+    .p3 {
+        position: relative;
+        left: -5px;
+        top: -7px;
+    }
+    .donate__amount {
+        margin-top: 4px;
+        margin-left: 0;
+    }
+    #form-wrapper {
+        width: 300px;
+        height: 13.5px;
+        margin-left: 0;
+        margin-top: -8px;
+    }
+    form #debt-amount-slider::before {
+        content: " ";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        width: calc(92% * (8.8 / 10));
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #72828E;
+    }
+    form #debt-amount-slider label::after {
+        left: 50%;
+        top: 65%;
+        width: 5px;
+        height: 5px;
+    }
+    form #debt-amount-slider label::before {
+        margin-top: 3px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    form #debt-amount-slider input:checked+label::after {
+        border-width: 4px;
+        transform: translate(-50%, -50%) scale(0.75);
+        content: '';
+        position: absolute;
+        background-image: url('../../assets/images/circles.png');
+        left: 50%;
+        top: 65%;
+        height: 20px;
+        width: 20px;
+        background-size: 20px 20px;
+    }
+    .donate__middle {
+        margin-top: 50px;
+    }
+    .donate__radio__buttons {
+        margin-top: 25px;
+    }
+    .feed__friend__now {
+        margin-top: 27px;
+    }
+    .donate__share {
+        margin-left: 0;
+        margin-top: 31px;
+        min-width: 301px;
+    }
+    .wrpr {
+        max-height: 590px;
+    }
+    .feed__friend {
+        max-height: 1295px;
+    }
+
+
+    .footer {
+        margin-top: -149px;
+        height: 340px;
+    }
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 341px;
+    }
+    .footer__logo { 
+        margin-top: 20px;
+        margin-left: -101px;
+    }
+    .footer__logo__bamboo {
+        top: 18px;
+        margin-left: 73px;
+    }
+    .footer__logo h2 {
+        border: none;
+        width: 128px;
+    }
+    .nw_ic2 {
+        display: flex;
+        margin-top: -50px;
+        margin-left: -8px;
+    }
+    .nw_ic2 li {
+        margin-right: 42px;
+    }
+    .wrapper__donat__button {
+        margin-top: 0px;
+        margin-left: -78px;
+    }
+    .wrapper__wrapper {
+        width: 200px;
+    }
+    .designer__end {
+        left: 17px;
+        top: -63px;
+    }
+    .designer__end p {
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+    }
+    .footer__menu__body {
+        top: 75px;
+        margin-left: 10px;
+    }
+    .footer__menu__body .menu__list li {
+        margin-right: 28px;
+        max-width: 90px;
     }
 }
