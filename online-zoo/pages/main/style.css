@@ -1160,6 +1160,7 @@ input[type=email] {
     .backstage__text {
         max-width: 495px;
         margin-top: -89px;
+        margin-left: 20px;
     }
     .backstage__title {
         margin-left: 4px;
@@ -1364,6 +1365,7 @@ input[type=email] {
     }
     .footer__content {
         align-items: center;
+        max-height: 260px;
     }
     .footer__logo {
         margin-top: -70px;
@@ -1392,6 +1394,7 @@ input[type=email] {
         position: relative;
         left: 372px;
         top: -13px;
+        height: 60px;
     }
 }
 
@@ -1445,6 +1448,7 @@ input[type=email] {
     }
     .backstage__title {
         font-size: 24px;
+        max-width: 300px;
     }
     .backstage__text1 {
         margin-top: -11px;
