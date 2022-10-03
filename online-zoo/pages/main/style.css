@@ -966,11 +966,11 @@ input[type=email] {
 
     .backstage__image {
         min-width: 50%;
-        margin: 0 16px 0 0;
+        margin: 0 -14px 0 30px;
     }
 
     .backstage__image img {
-        width: 96.8%;
+        width: 90.9%;
         height: 408px;
         object-fit: cover;
     }
@@ -981,6 +981,7 @@ input[type=email] {
 
     .backstage__text3 {
         line-height: 22px;
+        max-width: 450px;
     }
 
     .pets {
@@ -1122,7 +1123,7 @@ input[type=email] {
     }
 
     .header {
-        height: 36px;
+        height: 34px;
         margin-bottom: 45px;
         position: fixed;
         top: 0;
@@ -1168,11 +1169,11 @@ input[type=email] {
     }
 
     .watch__animal {
-        margin-top: 3px;
+        margin-top: 0px;
     }
 
     .watch__animal__content {
-        min-height: 374px;
+        min-height: 371px;
         background-size: 80%;
     }
 
@@ -1187,7 +1188,7 @@ input[type=email] {
         font-size: 54.2894px;
         max-width: 255px;
         left: calc(50% - 255.64px/2 + 176.76px);
-        margin-top: 40px;
+        margin-top: 38px;
         margin-left: 36px;
     }
 
@@ -1225,6 +1226,10 @@ input[type=email] {
     .backstage__text2 {
         margin-left: 4px;
         margin-bottom: 19px;
+    }
+
+    .backstage__text3 {
+        max-width: 484px;
     }
 
     .pets {
@@ -1399,6 +1404,10 @@ input[type=email] {
         flex-direction: column;
     }
 
+    .testimionals__title {
+        margin-bottom: 32px;
+    }
+
     .wrapper__human {
         width: 600px;
         height: 109px;
@@ -1439,6 +1448,7 @@ input[type=email] {
 
     .footer {
         height: 282px;
+        margin-top: 2px;
     }
 
     .subscribe__form {
@@ -1781,8 +1791,8 @@ input[type=email] {
     }
 
     .designer__end {
-        left: 14px;
-        top: -19px;
+        left: -264px;
+        top: 216px;
     }
 
     .designer__end p {
@@ -1798,7 +1808,15 @@ input[type=email] {
     }
 
     .footer__menu__body .menu__list li {
-        margin-right: 30px;
+        margin-right: 28px;
         max-width: 90px;
+    }
+
+    .wrapper__wrapper {
+        position: relative;
+        right: 20px;
+    }
+    .donate__button {
+        margin-left: 21px;
     }
 }
