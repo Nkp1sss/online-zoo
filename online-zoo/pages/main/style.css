@@ -1751,7 +1751,8 @@ input[type=email] {
     }
 
     .footer {
-        height: 334px;
+        top: -6px;
+        height: 340px;
     }
 
     .footer__content {
