@@ -359,7 +359,7 @@ form #debt-amount-slider label {
 form #debt-amount-slider label::before {
     content: attr(data-debt-amount);
     position: absolute;
-    left: 50%;
+    left: 60%;
     margin-top: 10px;
     transform: translate(-50%, 45px);
     font-size: 26px;
@@ -966,6 +966,9 @@ input[type=email] {
     form #debt-amount-slider {
         left: -26px;
         width: 108.4%;
+    }
+    form #debt-amount-slider label::before {
+        left: 50%;    
     }
     form #debt-amount-slider::before {
         content: " ";
