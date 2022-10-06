@@ -320,7 +320,8 @@ form #debt-amount-slider {
     flex-direction: row;
     align-content: stretch;
     position: relative;
-    width: 100%;
+    left: -33px;
+    width: 106.4%;
     height: 50px;
     user-select: none;
     position: absolute;
@@ -835,6 +836,10 @@ input[type=email] {
         width: 810px;
         margin-left: 65px;
     }
+    form #debt-amount-slider {
+        left: -49px;
+        width: 112.4%;
+    }
     form #debt-amount-slider::before {
         content: " ";
         position: absolute;
@@ -957,6 +962,10 @@ input[type=email] {
         width: 600px;
         margin-left: 0;
         margin-top: -8px;
+    }
+    form #debt-amount-slider {
+        left: -26px;
+        width: 108.4%;
     }
     form #debt-amount-slider::before {
         content: " ";
@@ -1146,6 +1155,10 @@ input[type=email] {
         height: 13.5px;
         margin-left: 0;
         margin-top: -8px;
+    }
+    form #debt-amount-slider {
+        left: -15px;
+        width: 108.4%;
     }
     form #debt-amount-slider::before {
         content: " ";
