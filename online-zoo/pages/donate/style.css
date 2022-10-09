@@ -143,6 +143,100 @@ a.donate {
     text-decoration: underline;
 }
 
+/* Menu-burger */
+.header__logo h2 {
+    border: 1.18841px solid #FE9013;
+    font-weight: 400;
+    font-size: 15.2116px;
+    line-height: 120%;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 4px;
+    border-radius: 1px;
+}
+
+.header__logo h2 a {
+    color: #FE9013;
+    padding: 0;
+}
+
+.navbar__wrap {
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+.navbar .header__logo {
+    width: 66px;
+    height: 42px;
+    margin-top: -3px;
+}
+
+.navbar .header__logo__bamboo {
+    position: absolute;
+    top: 28px;
+    margin-left: 26px;
+}
+
+.wrapper__menu {
+    margin-top: 32px;
+    margin-left: -68px;
+}
+
+.burger__menu li {
+    list-style-type: none;
+    margin-bottom: 19px;
+}
+
+.burger__menu li a {
+    color: black;
+    font-size: 16px;
+}
+
+.close__bm {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.close__bm img {
+    width: 100%;
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    z-index: 100000000;
+    left: -100%;
+    width: 100%;
+    transition: 0.4s;
+    margin-top: -25px;
+}
+.navbar.open {
+    left: 0;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: -200%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 900;
+    background-color: black;
+    opacity: 0.5;
+    margin-top: 308px;
+}
+
+.overlay.open {
+    left: 0;
+}
+
+body.noscroll {
+    overflow-y: hidden;
+}
+
 /* background__panda */
 .background__panda {
     height: 390px;
@@ -1075,6 +1169,10 @@ input[type=email] {
 @media screen and (max-width: 639px) { 
     .wrapper {
         max-width: 300px;
+    }
+
+    .navbar {
+        margin-top: -28px;
     }
 
     body {
