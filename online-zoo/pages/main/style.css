@@ -689,6 +689,10 @@ body.noscroll {
     margin-bottom: 47px;
 }
 
+.testimonials__people__wrapper {
+    overflow: hidden;
+}
+
 .testimionals__people {
     display: flex;
     margin-bottom: 15px;
@@ -699,11 +703,20 @@ body.noscroll {
     background: linear-gradient(#E6E5F5, #F4BBF7, #FDC1B0, #F3B6F5);
     border-radius: 20px;
     margin-right: 30px;
-    min-width: 268px;
+    min-width: 266px;
+    position: relative;
+}
+
+.human-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
 }
 
 .human {
-    max-width: 264px;
+    max-width: 262px;
     max-height: 387px;
     background: #F1F3F2;
     border-radius: 20px;
@@ -1182,10 +1195,6 @@ input[type=email] {
         left: -5px;
     }
 
-    .wrapper__human:last-child {
-        display: none;
-    }
-
     input[type=range] {
         width: 402px;
         margin-bottom: 25px;
@@ -1503,9 +1512,25 @@ input[type=email] {
     }
 
     .wrapper__human {
-        width: 600px;
+        min-width: 600px;
         height: 109px;
         margin-bottom: 15px;
+        cursor: pointer;
+    }
+
+    .wrapper__human.active {
+        position: fixed;
+        left: 35%;
+        top: 20%;
+        min-width: 293px;
+        height: 391px;
+        transition: all 0.3s;
+        z-index: 2;
+        cursor: auto;
+    }
+
+    .wrapper__human:nth-child(n + 4) {
+        display: none;
     }
 
     .human {
@@ -1513,6 +1538,15 @@ input[type=email] {
         height: 105px;
         text-overflow: clip;
     }
+    .human.active {
+        min-width: 293px;
+        height: 391px;
+    }
+
+    .human-close.active {
+        display: block;
+    }
+
     .human__testimional {
         overflow: hidden;
     }
@@ -1524,8 +1558,6 @@ input[type=email] {
     .wrapper__testimionals__feed-bar {
         display: none;
     }
-
-    .testimionals__leave__feedback {}
 
     .wrp__test_feedback {
         display: flex;
@@ -1541,6 +1573,23 @@ input[type=email] {
     .testimonials {
         background-position: 101.2% 116%;
         background-size: 120px;
+    }
+    
+    .testimonials-overlay {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+    }
+
+    .testimonials-overlay.active {
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        cursor: pointer;
     }
 
     .footer {

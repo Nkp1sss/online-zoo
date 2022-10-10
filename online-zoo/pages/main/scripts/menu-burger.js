@@ -2,7 +2,7 @@ let menuBurgerOpenBtn = document.querySelector('.menu__burger');
 let menuBurgerCloseBtn = document.querySelector('.close__bm');
 let menuBurger = document.querySelector('.navbar');
 let overlay = document.querySelector('.overlay')
-const body = document.body;
+let body = document.body;
 
 menuBurgerOpenBtn.addEventListener('click', () => {
     menuBurger.classList.add('open');

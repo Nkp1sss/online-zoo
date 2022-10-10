@@ -1374,3 +1374,10 @@ input[type=email] {
         max-width: 90px;
     }
 }
+
+.overlay.open {
+
+}
+.overlay .open {
+    
+}
