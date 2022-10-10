@@ -435,6 +435,7 @@ body.noscroll {
     border-radius: 5px;
     border: 1px solid #FA6F32;
     overflow: hidden;
+    animation: 0.5s ease-in-out;
 }
 
 .animal__image img {

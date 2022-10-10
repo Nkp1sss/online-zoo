@@ -123,55 +123,55 @@
                                     <form action="/p/quote.php" method="GET">
                                         <div class="slider1600">
                                             <div id="debt-amount-slider">
-                                                <input type="radio" name="debt-amount" id="1" value="1" required>
+                                                <input class="debt-input" type="radio" name="debt-amount" id="1" value="1" required>
                                                 <label for="1" data-debt-amount="$5000"></label>
-                                                <input type="radio" name="debt-amount" id="2" value="2" required>
+                                                <input class="debt-input" type="radio" name="debt-amount" id="2" value="2" required>
                                                 <label for="2" data-debt-amount="$2000"></label>
-                                                <input type="radio" name="debt-amount" id="3" value="3" required>
+                                                <input class="debt-input" type="radio" name="debt-amount" id="3" value="3" required>
                                                 <label for="3" data-debt-amount="$1000"></label>
-                                                <input type="radio" name="debt-amount" id="4" value="4" required>
+                                                <input class="debt-input" type="radio" name="debt-amount" id="4" value="4" required>
                                                 <label for="4" data-debt-amount="$500"></label>
-                                                <input type="radio" name="debt-amount" id="5" value="5" required>
+                                                <input class="debt-input" type="radio" name="debt-amount" id="5" value="5" required>
                                                 <label for="5" data-debt-amount="$250"></label>
-                                                <input type="radio" name="debt-amount" id="6" value="6" required>
-                                                <label for="6" data-debt-amount="$100"></label>
-                                                <input type="radio" name="debt-amount" id="7" value="7" required>
+                                                <input class="debt-input" type="radio" name="debt-amount" id="6" value="6" required>
+                                                <label class="sex" for="6" data-debt-amount="$100"></label>
+                                                <input class="debt-input" type="radio" name="debt-amount" id="7" value="7" required>
                                                 <label for="7" data-debt-amount="$50"></label>
-                                                <input type="radio" name="debt-amount" id="8" value="8" required>
+                                                <input class="debt-input" type="radio" name="debt-amount" id="8" value="8" required>
                                                 <label for="8" data-debt-amount="$25"></label>
                                                 <div id="debt-amount-pos"></div>
                                             </div>
                                         </div>
                                         <div class="slider1000">
                                             <div id="debt-amount-slider">
-                                                <input type="radio" name="debt-amount" id="12" value="2" required>
-                                                <label for="12" data-debt-amount="$2000"></label>
-                                                <input type="radio" name="debt-amount" id="13" value="3" required>
+                                                <input class="debt-input" type="radio" name="debt-amount1" id="12" value="2" required>
+                                                <label class="debt-input" for="12" data-debt-amount="$2000"></label>
+                                                <input class="debt-input" type="radio" name="debt-amount1" id="13" value="3" required>
                                                 <label for="13" data-debt-amount="$1000"></label>
-                                                <input type="radio" name="debt-amount" id="14" value="4" required>
+                                                <input class="debt-input" type="radio" name="debt-amount1" id="14" value="4" required>
                                                 <label for="14" data-debt-amount="$500"></label>
-                                                <input type="radio" name="debt-amount" id="15" value="5" required>
+                                                <input class="debt-input" type="radio" name="debt-amount1" id="15" value="5" required>
                                                 <label for="15" data-debt-amount="$250"></label>
-                                                <input type="radio" name="debt-amount" id="16" value="6" required>
+                                                <input class="debt-input" checked type="radio" name="debt-amount1" id="16" value="6" required>
                                                 <label for="16" data-debt-amount="$100"></label>
-                                                <input type="radio" name="debt-amount" id="17" value="7" required>
+                                                <input class="debt-input" type="radio" name="debt-amount1" id="17" value="7" required>
                                                 <label for="17" data-debt-amount="$50"></label>
-                                                <input type="radio" name="debt-amount" id="18" value="8" required>
+                                                <input class="debt-input" type="radio" name="debt-amount1" id="18" value="8" required>
                                                 <label for="18" data-debt-amount="$25"></label>
                                                 <div id="debt-amount-pos"></div>
                                             </div>
                                         </div>
                                         <div class="slider640">
                                             <div id="debt-amount-slider">
-                                                <input type="radio" name="debt-amount" id="24" value="4" required>
+                                                <input class="debt-input" type="radio" name="debt-amount2" id="24" value="4" required>
                                                 <label for="24" data-debt-amount="$500"></label>
-                                                <input type="radio" name="debt-amount" id="25" value="5" required>
+                                                <input class="debt-input" type="radio" name="debt-amount2" id="25" value="5" required>
                                                 <label for="25" data-debt-amount="$250"></label>
-                                                <input type="radio" name="debt-amount" id="26" value="6" required>
+                                                <input class="debt-input" checked type="radio" name="debt-amount2" id="26" value="6" required>
                                                 <label for="26" data-debt-amount="$100"></label>
-                                                <input type="radio" name="debt-amount" id="27" value="7" required>
+                                                <input class="debt-input" type="radio" name="debt-amount2" id="27" value="7" required>
                                                 <label for="27" data-debt-amount="$50"></label>
-                                                <input type="radio" name="debt-amount" id="28" value="8" required>
+                                                <input class="debt-input" type="radio" name="debt-amount2" id="28" value="8" required>
                                                 <label for="28" data-debt-amount="$25"></label>
                                                 <div id="debt-amount-pos"></div>
                                             </div>
@@ -320,6 +320,7 @@
             </div>
         </div>
     </footer>
-    <script src="menu-burger.js"></script>
+    <script src="scripts/menu-burger.js"></script>
+    <script src="scripts/validation.js"></script>
 </body>
 </html>
