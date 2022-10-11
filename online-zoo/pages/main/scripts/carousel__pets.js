@@ -64,6 +64,9 @@ function shuffle(array) {
 
 let animals = document.querySelectorAll('.pets__animals--first .animal');
 
+console.log('Благодарю за понимание.');
+
+// AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 // передавать slide[actual]
 function test(slide) {
     let randomArray = [0, 1, 2, 3, 4, 5, 6, 7];
